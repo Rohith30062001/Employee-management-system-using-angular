@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+     }
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center !important;
+    vertical-align: middle !important;
+    justify-content: center !important;
+    
+    display: flex;
+   
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 500px;  
+    text-align: center;  
+    font-size: 15px;  
+    }
+      
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+    justify-content: center !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    display: flex;
+    
+    }
+      
+table tr:nth-child(even) {
+    background-color: #ffffff;
+    text-align: center !important;
+    vertical-align: middle !important;
+    justify-content: center !important;
+    display: flex;
+    }
